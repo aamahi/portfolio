@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {styles} from "../styles.js";
 import {Link} from "react-router-dom";
 import {logo} from "../assets/index.js";
+import {navLinks} from "../constants/index.js";
 const Navbar = () => {
   const [active, setActive] = useState('')
   return (
@@ -11,7 +12,15 @@ const Navbar = () => {
               <img src={logo} alt="logo" className={'w-9 h-9 object-contain'}/>
               <p className={'text-white text-[18px] font-bold cursor-pointer'}>Abdullah Al Mahi <span className={'sm:block hidden'}>| Frontend Developer </span></p>
           </Link>
-            <p className={'text-red-500'}>navigationbar</p>
+          <ul className={'list-none hidden sm:flex flex-row gap-10'}>
+              {navLinks.map((link)=>(
+                  <li key={link.id} className={`${active === link.title? "text-white" : "text-gray-400"} hover: text-white text[18px] font-medium cursor-pointer`}
+                    onClick={()=>(setActive(link.title))}
+                  >
+                      <a href={`#${link.id}`}>{link.title}</a>
+                  </li>
+              ))}
+          </ul>
         </div>
       </nav>
   )
