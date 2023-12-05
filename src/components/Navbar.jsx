@@ -9,7 +9,9 @@ const Navbar = () => {
         <div className={'w-full flex justify-between items-center max-w-7xl mx-auto'}>
           <Link className={'flex items-center gap-2'} to='/' onClick={()=>{setActive('');window.scrollTo(0, 0);}}>
               <img src={logo} alt="logo" className={'w-9 h-9 object-contain'}/>
+              <p className={'text-white text-[18px] font-bold cursor-pointer'}>Abdullah Al Mahi <span className={'sm:block hidden'}>| Frontend Developer </span></p>
           </Link>
+            <p>navigationbar</p>
         </div>
       </nav>
   )
