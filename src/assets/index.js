@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo-no-background.svg";
 // import logo from "./logo-mahi.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
