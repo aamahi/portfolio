@@ -27,6 +27,10 @@ import wedevs from "./company/wedevs.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import wordpress from "./tech/wordpress.png";
+import Next from "./tech/Next.png";
+import Azure from "./tech/Azure.png";
+import Angular from "./tech/angular.png";
 
 export {
   logo,
@@ -56,4 +60,8 @@ export {
   selise,
   wpxpo,
   wedevs,
+  Next,
+  wordpress,
+  Azure,
+  Angular
 };
