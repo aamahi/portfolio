@@ -19,7 +19,7 @@ import {
   jobit,
   tripguide,
   threejs,
-  selise, wpxpo, wedevs,
+  selise, wpxpo, wedevs, Next, Azure, wordpress, Angular,
 } from "../assets";
   
   export const navLinks = [
@@ -66,6 +66,10 @@ import {
       icon: css,
     },
     {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -74,17 +78,22 @@ import {
       icon: typescript,
     },
     {
+      name: "NextJs",
+      icon: Next,
+    },
+    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Angular",
+      icon: Angular,
     },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
+
     {
       name: "Node JS",
       icon: nodejs,
@@ -94,16 +103,12 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "wordpress",
+      icon: wordpress,
     },
     {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
+      name: "Azure",
+      icon: Azure,
     },
     {
       name: "docker",
@@ -139,10 +144,10 @@ import {
       ],
     },
     {
-      title: "WordPress Developer Trainee",
+      title: "Software Engineer Trainee ",
       company_name: "WeDevs",
       icon: wedevs,
-    iconBg: "#FFFFFF",
+      iconBg: "#FFFFFF",
       date: "February 2021 - July 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
