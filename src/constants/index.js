@@ -19,7 +19,7 @@ import {
   jobit,
   tripguide,
   threejs,
-  selise, wpxpo, wedevs, Next, Azure, wordpress, Angular,
+  selise, wpxpo, wedevs, Next, Azure, wordpress, Angular, bipro, ratul, arif
 } from "../assets";
   
   export const navLinks = [
@@ -161,27 +161,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "He is a great guy for developing frontend applications and turning designs provided UX Engineers into web pages",
+      name: "Artful Islam",
+      designation: "Technology Manager",
+      company: "Selise Digital Platform",
+      image: arif,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "He is an extremely talented programmer and software developer. He always deliver what he promise, both when it comes to quality and time.",
+      name: "Bipro Sharma",
+      designation: "Software Engineer",
+      company: "Selise Digital Platform",
+      image: bipro,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+          "He is an extremely talented programmer and software developer. He always deliver what he promise, both when it comes to quality and time.",
+      name: "Ratul Hasan",
+      designation: "Software Engineer",
+      company: "WeDevs",
+      image: ratul,
     },
   ];
   

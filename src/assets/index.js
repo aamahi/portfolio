@@ -1,5 +1,4 @@
 import logo from "./logo-no-background.svg";
-// import logo from "./logo-mahi.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -7,7 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import bipro from "./bipro.jpg";
+import arif from  './arif.jpeg';
+import ratul from './ratul.jpeg';
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -31,7 +32,6 @@ import wordpress from "./tech/wordpress.png";
 import Next from "./tech/Next.png";
 import Azure from "./tech/Azure.png";
 import Angular from "./tech/angular.png";
-
 export {
   logo,
   backend,
@@ -63,5 +63,8 @@ export {
   Next,
   wordpress,
   Azure,
-  Angular
+  Angular,
+  bipro,
+  arif,
+  ratul
 };
