@@ -32,6 +32,7 @@ import wordpress from "./tech/wordpress.png";
 import Next from "./tech/Next.png";
 import Azure from "./tech/Azure.png";
 import Angular from "./tech/angular.png";
+import ReactNative from "./tech/react-native.png";
 export {
   logo,
   backend,
@@ -54,6 +55,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  ReactNative,
   carrent,
   jobit,
   tripguide,

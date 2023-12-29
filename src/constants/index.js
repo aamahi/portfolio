@@ -19,7 +19,7 @@ import {
   jobit,
   tripguide,
   threejs,
-  selise, wpxpo, wedevs, Next, Azure, wordpress, Angular, bipro, ratul, arif
+  selise, wpxpo, wedevs, Next, Azure, wordpress, Angular, bipro, ratul, arif, ReactNative
 } from "../assets";
   
   export const navLinks = [
@@ -47,12 +47,12 @@ import {
       icon: mobile,
     },
     {
-      title: "WordPress Developer",
-      icon: backend,
+      title: "Mobile App Developer",
+      icon: creator,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "WordPress Developer",
+      icon: backend,
     },
   ];
   
@@ -95,8 +95,8 @@ import {
     // },
 
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "React Native",
+      icon: ReactNative,
     },
     {
       name: "MongoDB",
@@ -186,34 +186,14 @@ import {
   ];
   
   const projects = [
-    {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/aamahi",
-    },
+
     {
       name: "Job IT",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "angular",
           color: "blue-text-gradient",
         },
         {
@@ -221,8 +201,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "graphQL",
           color: "pink-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "blue-text-gradient",
         },
       ],
       image: jobit,
@@ -247,6 +231,27 @@ import {
         },
       ],
       image: tripguide,
+      source_code_link: "https://github.com/aamahi",
+    },
+    {
+      name: "Car Rent",
+      description:
+          "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
       source_code_link: "https://github.com/aamahi",
     },
   ];
