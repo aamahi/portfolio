@@ -163,7 +163,7 @@ import {
       testimonial:
         "He is a great guy for developing frontend applications and turning designs provided UX Engineers into web pages",
       name: "Artful Islam",
-      designation: "Technology Manager",
+      designation: "Senior Engineering Manager",
       company: "Selise Digital Platform",
       image: arif,
     },
