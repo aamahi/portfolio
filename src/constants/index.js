@@ -8,18 +8,22 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
   mongodb,
-  git,
-  figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-  selise, wpxpo, wedevs, Next, Azure, wordpress, Angular, bipro, ratul, arif, ReactNative
+  selise,
+  wpxpo,
+  wedevs,
+  Next,
+  Azure,
+  wordpress,
+  Angular,
+  bipro,
+  ratul,
+  arif,
+  ReactNative,
+  chronSwiss,
+  ebookStore, taskAi
 } from "../assets";
   
   export const navLinks = [
@@ -89,11 +93,6 @@ import {
       name: "Angular",
       icon: Angular,
     },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
-
     {
       name: "React Native",
       icon: ReactNative,
@@ -188,7 +187,7 @@ import {
   const projects = [
 
     {
-      name: "Job IT",
+      name: "Task.ai",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -209,11 +208,11 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: jobit,
+      image: taskAi,
       source_code_link: "https://github.com/aamahi",
     },
     {
-      name: "Trip Guide",
+      name: "Chron Swiss",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -230,11 +229,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: chronSwiss,
       source_code_link: "https://github.com/aamahi",
     },
     {
-      name: "Car Rent",
+      name: "Ebook Store",
       description:
           "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -251,7 +250,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: ebookStore,
       source_code_link: "https://github.com/aamahi",
     },
   ];

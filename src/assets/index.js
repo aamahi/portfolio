@@ -11,7 +11,6 @@ import arif from  './arif.jpeg';
 import ratul from './ratul.jpeg';
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -21,18 +20,18 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 import selise from "./company/selise.png";
 import wpxpo from "./company/wpxpo.png";
 import wedevs from "./company/wedevs.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import wordpress from "./tech/wordpress.png";
 import Next from "./tech/Next.png";
 import Azure from "./tech/Azure.png";
 import Angular from "./tech/angular.png";
 import ReactNative from "./tech/react-native.png";
+import taskAi from './task-ai.png';
+import chronSwiss from './chron-swiss.png';
+import ebookStore from './ebook-store.png';
+
 export {
   logo,
   backend,
@@ -44,7 +43,6 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
@@ -54,11 +52,7 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   ReactNative,
-  carrent,
-  jobit,
-  tripguide,
   selise,
   wpxpo,
   wedevs,
@@ -68,5 +62,8 @@ export {
   Angular,
   bipro,
   arif,
-  ratul
+  ratul,
+  taskAi,
+  chronSwiss,
+  ebookStore
 };
