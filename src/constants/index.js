@@ -123,10 +123,11 @@ import {
       iconBg: "#FFFFFF",
       date: "October 2021 - Running",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining web applications using React.js, Angular and other related technologies.",
+        "Collaborating with cross-functional teams including Clint, Designers, Business Analyst, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+          "Write Test Cases for unit testing and integration testing."
       ],
     },
     {
@@ -134,13 +135,11 @@ import {
       company_name: "WPXPO",
       icon: wpxpo,
       iconBg: "#FFFFFF",
-      date: "August 2021 - October 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      date: "September 2021 - October 2021",
+      points:[
+       "Developing and Designing Gutenberg Gutenberg Dynamic Site Builder Plugin.",
+        "Collaborating with cross-functional teams including Tech Lead, Support Engineer, Designer, Marketing team and other developers to create high-quality WordPress Plugin.",
+        "Fixing bugs and adding new features to the plugin.",]
     },
     {
       title: "Software Engineer Trainee ",
@@ -149,10 +148,10 @@ import {
       iconBg: "#FFFFFF",
       date: "February 2021 - July 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I have a good command of WordPress, and I have completed a five-month-long internship in WeDevs Limited as well as I have successfully come through different levels of assignments ranging from advance to mediocre were supervised by excellent engineers in WeDevs. Moreover, I had a part to play a conducive role as a junior apprentice with accomplishing a wordpress plugin assignment.",
+        "WordPress Plugin Development.",
+        "WooCommerce Development.",
+        "WordPress REST API Development."
       ],
     }
   ];
@@ -160,11 +159,19 @@ import {
   const testimonials = [
     {
       testimonial:
-        "He is a great guy for developing frontend applications and turning designs provided UX Engineers into web pages",
+        "He is a great guy for developing frontend applications and turning designs provided UX Engineers into web pages.",
       name: "Artful Islam",
       designation: "Senior Engineering Manager",
       company: "Selise Digital Platform",
       image: arif,
+    },
+    {
+      testimonial:
+          "Mahi’s expertise in software engineering is truly exceptional.His dedication to delivering high-quality, efficient solutions is evident in every project they undertake.",
+      name: "Ratul Hasan",
+      designation: "Software Engineer",
+      company: "WeDevs",
+      image: ratul,
     },
     {
       testimonial:
@@ -174,14 +181,6 @@ import {
       company: "Selise Digital Platform",
       image: bipro,
     },
-    {
-      testimonial:
-          "He is an extremely talented programmer and software developer. He always deliver what he promise, both when it comes to quality and time.",
-      name: "Ratul Hasan",
-      designation: "Software Engineer",
-      company: "WeDevs",
-      image: ratul,
-    },
   ];
   
   const projects = [
@@ -189,7 +188,7 @@ import {
     {
       name: "Task.ai",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Transform your task management with the versatility of Tasks AI. Generate collaborative tasks and to-do lists." ,
       tags: [
         {
           name: "angular",
@@ -214,7 +213,7 @@ import {
     {
       name: "Chron Swiss",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Chronoswiss is a Swiss watch manufacturer based in Lucerne. This is a clone of the website.",
       tags: [
         {
           name: "nextjs",
@@ -235,7 +234,7 @@ import {
     {
       name: "Ebook Store",
       description:
-          "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+          "An eBook store is simply an online bookstore from where one can download eBooks into eBook readers.",
       tags: [
         {
           name: "react",
